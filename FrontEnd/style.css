@@ -21,12 +21,10 @@ body {
     height: 50px;
 }
 .bg-video-wrap img {
-    position: fixed;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    padding: left;
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    object-position: right;
     transition: transform .3s;
     margin: auto;
     z-index: 1;
